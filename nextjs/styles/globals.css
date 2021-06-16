@@ -14,3 +14,64 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --txt-dark: #9ca9b3;
+  --txt-normal: #eceded; 
+
+  --btn-normal: #6163ff;
+  --btn-dark: #5658dd;
+
+  --btn-gray: #25282c;
+
+  --green-dark: #2a9139;
+  --green-light: #3dbd40;
+
+  --red-dark: #db4931;
+  --red-light: #e04d25;
+}
+
+button {
+  cursor: pointer;
+  padding: 1em 2em;
+  color: var(--txt-normal);
+  background: var(--btn-gray);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  margin-top: 0;
+}
+li {
+  list-style-type: none; 
+} 
+sub {
+  color: var(--btn-dark);
+  font-weight: 600;
+  margin: 0;
+}
+
+p.larger {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.colored-btn {
+  padding: 1em 2em;
+  color: var(--txt-normal);
+  background: var(--btn-normal);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.colored-btn:hover {
+  background: var(--btn-dark);
+}

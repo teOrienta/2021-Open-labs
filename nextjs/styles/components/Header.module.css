@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+
+    padding: 1em;
+    width: 100vw;
+}
+.container img {
+    height: 25px;
+}
+.container .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15em;
+
+    color: #444;
+}
+.container .links a {
+    font-weight: bold;
+}
+.container .links button {
+    padding: .5em 2em;
+}

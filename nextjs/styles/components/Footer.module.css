@@ -1,0 +1,11 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.container div {
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+}
