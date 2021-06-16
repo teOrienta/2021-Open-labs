@@ -7,10 +7,10 @@ export default function Footer() {
         Criado pelo grupo teOrienta
       </p>
       <div>
-        <a href="#"> Contact </a>
-        <a href="#"> About us </a>
+        <a href="#"> Contato </a>
+        <a href="#"> Sobre a equipe </a>
         <a href="#"> FAQ's </a>
-        <a href="#"> Support </a>
+        <a href="#"> Suporte </a>
       </div>
     </div>
   )

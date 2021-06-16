@@ -79,10 +79,10 @@
     font-size: 16px;
     padding: 12px 20px;
     color: #fff;
-    background-color: #35a947;
+    background-color: var(--btn-normal);
 }
 .loginContainer button.access:hover {
-    background-color: #2d8f3c;
+    background-color: var(--btn-dark);
 }
 .loginContainer button.access:disabled {
     background-color: #ccc;

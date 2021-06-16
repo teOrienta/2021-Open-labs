@@ -90,36 +90,42 @@
     height: 3em;
 }
 
-.count sub {
+.team sub {
     margin-top: 3em;
     font-size: x-large;
 }
 
-.count h1 {
+.team h1 {
     margin-top: 0;
 }
-.count li {
+.team li {
     display: flex;
     align-items: center;
+    border-left: solid;
+    padding: 1em 0;
+    flex: 1;
 }
-.count li h4 {
+.team li h4 {
     font-size: 20px;
+    margin-bottom: 0;
 }
-.count li span {
+.team li span {
     background: var(--btn-dark);
-    border-radius: 100%;
-    min-width: 80px;
+    padding: 0 1em;
+    border-radius: 0 4px 4px 0;
+    min-width: 100px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 2em;
 }
-.count li span p {
+.team li span p {
     font-size: xx-large;
     font-weight: 600;
     color: #FFF;
     margin: 0;
+    white-space: nowrap;
 }
 
 .testimony ul {
