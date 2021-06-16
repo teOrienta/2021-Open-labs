@@ -1,5 +1,5 @@
 import styles from '../styles/components/Main.module.css'
-import Video from '../public/icons/video.svg';
+import Video from '../public/icons/undraw_visual_data_re_mxxo.svg';
 import Inter from '../public/icons/inter.svg';
 import Icon from '../public/icons/vercel.svg';
 import Image from 'next/image';
@@ -11,10 +11,10 @@ export default function Main() {
     <div className={styles.container}>
       <section className = {styles.title}>
         <h1>
-          Landing template for <b>startups</b>
+          Te<b>Orienta</b>
         </h1>
         <p className = "larger">
-          Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+          Aventure-se conosco em busca de uma maior produtividade nos setores da sua organização!
         </p>
         <div>
           <button className = "colored-btn">
@@ -28,52 +28,54 @@ export default function Main() {
           <Image src = {Video} alt = "Land image" layout = "fill" objectFit="contain"/>
         </div>
       </section>
-
-      <section className = {styles.enterprise}>
-          <Image src = {Inter} alt = "advertisement"/>
-          <Image src = {Inter} alt = "advertisement"/>
-          <Image src = {Inter} alt = "advertisement"/>
-          <Image src = {Inter} alt = "advertisement"/>
-      </section>
-
+      
       <section className = {styles.qualities}>
         <section>
           <h1>
-            Build up the whole picture
+            Como fazemos isso?
           </h1>
           <p className = "larger">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
+            Uma promessa ambiciosa requer métodos sofisticados. Para isso, seguimos essas etapas de processo
           </p>
           <ul>
-            {[1, 2].map(x => (
-              <li key = {-x}>
-              <BiAbacus className = {styles.icon}/>
-              <h3> Robust Workflow </h3>
-              <p className = "larger">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-              </p>
-            </li>
-            ))}
+              <li>
+                <BiAbacus className = {styles.icon}/>
+                <h3> Descoberta </h3>
+                <p className = "larger">
+                  Primeiramente fazemos uma descoberta nos dados, isto é, extraimos o essencial e aplicamos algoritmos de mineração de processos para obter os resultados desejados.
+                </p>
+              </li>
+              <li>
+                <BiAbacus className = {styles.icon}/>
+                <h3> Confirmação </h3>
+                <p className = "larger">
+                  Após a etapa de Descoberta, é crucial verificarmos a conformidade dos dados apresentados. E é nessa etapa que isso acontece, legal, né?
+                </p>
+              </li>
+              <li>
+                <BiAbacus className = {styles.icon}/>
+                <h3> Melhoria </h3>
+                <p className = "larger">
+                  Baseado no que acontece de fato, podemos identificar mudanças que podem ser aplicadas de verdade na organização. Nessa etapa é feita uma recomendação de melhorias para evitar futuros gargalos. Que massa!
+                </p>
+              </li>
           </ul>
         </section>
       </section>
 
       <section className = {styles.functions}>
         <h1>
-          Workflow that just works
+          Para quem isso é destinado?
         </h1>
         <p className = "larger">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
+          Até agora foi dada uma explicação geral do que fazemos e como fazemos. Mas, pra quem fazemos isso? Existem várias aplicações para esse tipo de método e vamos listar algumas para vocês. Claro que estamos afirmando a possibilidade de personalização a depender do contexto em que nossa ferramenta será usada. 
         </p>
         <ul>
           <li>
             <div>
-              <sub>
-                LIGHTNING FAST WORKFLOW
-              </sub>
-              <h3>Data-driven insights</h3>
+              <h3>Setor de finanças</h3>
               <p className = "larger">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Nossa ferramenta é facilmente adaptada para o setor de finanças de uma organização. Normalmente, partes burocráticas geram bastantes logs que não são utilizados para outros meios, mas que podem ser utilizados para encontrar gargalos na operação de finanças e melhorar, como consequência, a produtividade desse setor.
               </p>
             </div>
             <div className={styles.demos}>
@@ -85,12 +87,9 @@ export default function Main() {
               <Image src = {Icon} alt = "demo img" layout = "fill" objectFit="contain"/>
             </div>
             <div style = {{ textAlign: "end" }}>
-              <sub>
-                LIGHTNING FAST WORKFLOW
-              </sub>
-              <h3>Data-driven insights</h3>
+              <h3>Setor de logística</h3>
               <p className = "larger">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Assim como nas finanças, esse setor gera muitos logs que acabam se tornando "lixo" com o passar do tempo. Esses logs normalmente dizem respeito à entrega e transporte de produtos, além de expedições de documentos. Com isso, podemos facilmente identificar partes que podem ser automatizadas no processo, zerando a possibilidade de gargalos e aumentando significativamente a eficiência dos processos. 
               </p>
             </div>
           </li>
@@ -98,30 +97,54 @@ export default function Main() {
       </section>
 
       <section className = {styles.count}>
-        <sub> Grow your revenue </sub>
-        <h1> Customer testimonials </h1>
+        <h1> Conheça nossa equipe </h1>
 
         <ul>
-          {[3, 4, 5].map(i => (
-            <li key = {i}>
-              <span> <p> {i} </p> </span>
-              <div>
-                <h4> Designers </h4>
-                <p> 
-                  Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum excepteur cillum consequat consectetur duis magna qui eu consequat occaecat. Deserunt nisi sit.
-                </p>
-              </div>
-            </li>
-          ))}
+          <li>
+            <span> <p>Matheus Almeida</p> </span>
+            <div>
+              <h4> CTO </h4>
+              <p> 
+                Um mestre, manja de tudo
+              </p>
+            </div>
+          </li>
+          <li>
+            <span> <p>Marton Paulo</p> </span>
+            <div>
+              <h4> CEO </h4>
+              <p> 
+                Melhor designer em linha reta de Pernambuco, faixa preta em judô. 
+              </p>
+            </div>
+          </li>
+          <li>
+            <span> <p>Gabriel Nogueira</p> </span>
+            <div>
+              <h4> CO-Founder </h4>
+              <p> 
+                O cara, guitarrista da Vitruvian
+              </p>
+            </div>
+          </li>
+          <li>
+            <span> <p>José Danilo</p> </span>
+            <div>
+              <h4> CO-Founder </h4>
+              <p> 
+                Nas palavras de Vitor: Um cão chupando manga
+              </p>
+            </div>
+          </li>
         </ul>
       </section>
       
       <section className = {styles.testimony}>
         <h1>
-          Customer testimonials
+          Depoimento dos clientes
         </h1>
         <p className = "larger">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
+          Não tem
         </p>
         <ul>
           {[1, 2].map(x => (
