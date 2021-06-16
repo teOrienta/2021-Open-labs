@@ -1,11 +1,15 @@
 .container {
     width: 100vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 2em;
 }
+.container > p {
+    margin: 0;
+} 
 .container div {
     display: flex;
     justify-content: space-between;
-    width: 20em;
+    width: 25em;
 }

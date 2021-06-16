@@ -1,6 +1,9 @@
 import styles from '../styles/components/Main.module.css'
+import Video from '../public/icons/video.svg';
+import Inter from '../public/icons/inter.svg';
 import Icon from '../public/icons/vercel.svg';
 import Image from 'next/image';
+
 import { BiAbacus } from 'react-icons/bi'
 
 export default function Main() {
@@ -21,31 +24,38 @@ export default function Main() {
             Saber mais
           </button>
         </div>
-        <Image src = {Icon} alt = "Land image"/>
+        <div className = {styles.imgContainer} style =  {{ width: "750px" }}>
+          <Image src = {Video} alt = "Land image" layout = "fill" objectFit="contain"/>
+        </div>
       </section>
+
+      <section className = {styles.enterprise}>
+          <Image src = {Inter} alt = "advertisement"/>
+          <Image src = {Inter} alt = "advertisement"/>
+          <Image src = {Inter} alt = "advertisement"/>
+          <Image src = {Inter} alt = "advertisement"/>
+      </section>
+
       <section className = {styles.qualities}>
-        <h1>
-          Build up the whole picture
-        </h1>
-        <p className = "larger">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
-        </p>
-        <ul>
-          <li>
-            <BiAbacus className = {styles.icon}/>
-            <h3> Robust Workflow </h3>
-            <p className = "larger">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-            </p>
-          </li>
-          <li>
-            <BiAbacus className = {styles.icon}/>
-            <h3> Robust Workflow </h3>
-            <p className = "larger">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-            </p>
-          </li>
-        </ul>
+        <section>
+          <h1>
+            Build up the whole picture
+          </h1>
+          <p className = "larger">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
+          </p>
+          <ul>
+            {[1, 2].map(x => (
+              <li key = {-x}>
+              <BiAbacus className = {styles.icon}/>
+              <h3> Robust Workflow </h3>
+              <p className = "larger">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+              </p>
+            </li>
+            ))}
+          </ul>
+        </section>
       </section>
 
       <section className = {styles.functions}>
@@ -86,6 +96,26 @@ export default function Main() {
           </li>
         </ul>
       </section>
+
+      <section className = {styles.count}>
+        <sub> Grow your revenue </sub>
+        <h1> Customer testimonials </h1>
+
+        <ul>
+          {[3, 4, 5].map(i => (
+            <li key = {i}>
+              <span> <p> {i} </p> </span>
+              <div>
+                <h4> Designers </h4>
+                <p> 
+                  Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum excepteur cillum consequat consectetur duis magna qui eu consequat occaecat. Deserunt nisi sit.
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+      
       <section className = {styles.testimony}>
         <h1>
           Customer testimonials
@@ -107,6 +137,7 @@ export default function Main() {
           ))}
         </ul>
       </section>
+
       <section className = {styles.banner}>
           <h3>
             For previewing layouts and visual?
