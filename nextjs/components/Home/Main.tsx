@@ -1,7 +1,7 @@
-import styles from '../styles/components/Main.module.css'
-import Video from '../public/icons/video.svg';
-import Inter from '../public/icons/inter.svg';
-import Icon from '../public/icons/vercel.svg';
+import styles from '../../styles/components/Home/Main.module.css'
+import Video from '../../public/icons/video.svg';
+import Inter from '../../public/icons/inter.svg';
+import Icon from '../../public/icons/vercel.svg';
 import Image from 'next/image';
 
 import { BiAbacus } from 'react-icons/bi'

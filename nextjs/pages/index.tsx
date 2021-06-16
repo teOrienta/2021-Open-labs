@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Header from '../components/Home/Header'
+import Main from '../components/Home/Main'
+import Footer from '../components/Home/Footer'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {

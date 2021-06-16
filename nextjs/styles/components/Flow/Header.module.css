@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+
+    padding: 2em;
+    width: 100vw;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15em;
+}
+.profile div + div {
+    display: flex;
+    align-items: center;
+}
+.profile p {
+    margin: 0;
+}
+.profilePic {
+    position: relative;
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.searchContainer {
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 1em;
+}
+.searchContainer input {
+    border: none;
+    outline: none;
+}

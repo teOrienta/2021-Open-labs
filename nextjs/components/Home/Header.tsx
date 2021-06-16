@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/components/Header.module.css'
-import Icon from '../public/icons/vercel.svg';
+import styles from '../../styles/components/Home/Header.module.css'
+import Icon from '../../public/icons/vercel.svg';
 import { useState } from 'react';
 
 export function LoginContainer() {
@@ -10,10 +10,13 @@ export function LoginContainer() {
       <h1> Entrar </h1>
       <input type="email" placeholder="E-mail" required/>
       <input type="password" placeholder="Senha" required/>
-      <button type = "button" className = {styles.access}
-          onClick = {() => {}}>
-          Entrar
-      </button>
+      
+      <Link href = "/flow" passHref>
+        <button type = "button" className = {styles.access}
+            onClick = {() => {}}>
+            Entrar
+        </button>
+      </Link>
       <div className = {styles.separator}>
           <div> 
               <span>
