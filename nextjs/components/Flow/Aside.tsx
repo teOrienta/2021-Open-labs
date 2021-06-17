@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../../styles/components/Flow/Aside.module.css'
-import Icon from '../../public/icons/vercel.svg';
+import Icon from '../../public/icons/teorienta.png';
 
 import { AiFillHome, AiOutlineUpload, AiFillFilter } from 'react-icons/ai';
 

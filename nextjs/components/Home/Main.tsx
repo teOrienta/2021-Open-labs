@@ -145,17 +145,17 @@ export default function Main() {
           Depoimento dos clientes
         </h1>
         <p className = "larger">
-          Não tem
+          Seja um dos primeiros clientes!
         </p>
         <ul>
           {[1, 2].map(x => (
             <li key = {x}>
               <p>
-              — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                Aqui estará a sua mensagem de feedback
               </p>
               <hr />
               <p>
-                Roman Level / <b>AppName</b>
+                Seu nome / <b>Cargo</b>
               </p>
             </li>
           ))}
@@ -164,7 +164,7 @@ export default function Main() {
 
       <section className = {styles.banner}>
           <h3>
-            For previewing layouts and visual?
+            Preparado para inovação?
           </h3>
       </section>
     </div>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../../styles/components/Home/Header.module.css'
-import Icon from '../../public/icons/vercel.svg';
+import Icon from '../../public/icons/teorienta.png';
 import { useState } from 'react';
 
 export function LoginContainer() {
@@ -37,7 +37,10 @@ export default function Header() {
   return (
     <>
     <div className = {styles.container}>
-      <Image src = {Icon} alt = "Program icon" />
+      <div className = {styles.logoContainer}>
+        <Image src = {Icon} alt = "Program icon" 
+          layout = "fill" objectFit="contain"/>
+      </div>
 
       <div className = {styles.links}>
           <Link href = "/">

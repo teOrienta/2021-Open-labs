@@ -27,7 +27,12 @@
 .container .links button {
     padding: 1em 2em;
 }
-
+.logoContainer {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: -2em;
+}
 .overlay {
     display: flex;
     align-items: center;

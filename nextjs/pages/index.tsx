@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title> teOrienta </title>
         <meta name="description" content="teOrienta project" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icons/teorienta.png" />
       </Head>
 
       <Header/>
