@@ -9,8 +9,9 @@
     transition: height 1s;
 }
 .logoContainer {
-    margin-bottom: 2em;
-    margin-right: 2em;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 4em;
 }
 .container button {
     display: flex;
