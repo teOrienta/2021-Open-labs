@@ -18,7 +18,7 @@ export default function Header() {
                 layout = "fill" objectFit = "contain"
                 alt = "Program icon" />
             </div>
-            <p className = "larger"> Christina Carey </p>
+            <p className = "larger"> Rafa Morais </p>
             <MdExpandMore size = {20}/>
         </div>
     </div>
