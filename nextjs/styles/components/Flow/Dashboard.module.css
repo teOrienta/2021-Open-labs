@@ -1,22 +1,27 @@
 .container {
+    width: 100%;
     padding: 1em;
     position: relative;
 }
 .viewers {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1em;
 }
 .viewers div.card {
-    flex: 1 1 45%;
     background-color: #FFF;
     border-radius: 4px;
     margin: 1em;
-    max-width: 45%;
-    min-width: 40%;
+    max-width: 100%;
+    overflow: hidden;
 }
 .container footer {
-    position: fixed;
+    position: absolute;
     bottom: 25px;
     right: 25px;
+}
+@media (max-width: 450px) {
+    .viewers div.card {
+        margin: 1em 0;
+    }
 }

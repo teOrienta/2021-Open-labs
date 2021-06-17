@@ -1,20 +1,43 @@
 .container {
     display: flex;
     flex-direction: column;
-    min-width: 240px;
-    max-width: 240px;
+    width: 240px;
     padding: 1em;
-    height: 100vh;
+    height: -webkit-fill-available;
     background-color: #fff;
     overflow-y: auto;
-    transition: height 1s;
+    transition: transform 1s;
+    position: fixed;
+    z-index: 2;
+    border-right: dashed 0.1em #CCC;
+}
+.showBtn {
+    top: 7em;
+    z-index: 1;
+    position: absolute;
+    background: #FFF;
+    color: var(--txt-light);
+    transition: all .2s;
+}
+.title {
+    display: flex;
 }
 .logoContainer {
     margin: 1em;
     margin-left: 0;
-    margin-right: 4em;
 }
-.container button {
+.logoContainer + button {
+    background: #FFF;
+    color: var(--txt-light);
+    padding: 0;
+    transition: all .2s;
+    height: fit-content;
+    margin: auto;
+}
+.logoContainer + button:hover {
+    color: var(--btn-normal);
+}
+.container > button {
     display: flex;
     margin: 1em 0;
     padding: 1em 1em;
@@ -24,8 +47,9 @@
     transition: all .2s;
 }
 
-.container button:hover,
-.container button.selected {
+.showBtn:hover,
+.container > button:hover,
+.container > button.selected {
     background: var(--btn-normal);
     color: #FFF;
 }
