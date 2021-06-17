@@ -12,9 +12,11 @@ export default function Graphs() {
         ], links: [
             { source: "Chrome", target: "Facebook" },
             { source: "Facebook", target: "Whatsapp" },
+            { source: "Facebook", target: "Tiktok" },
             { source: "Chrome", target: "Youtube" },
             { source: "Whatsapp", target: "Youtube" },
             { source: "Youtube", target: "Tiktok" },
+            { source: "Youtube", target: "Ifood" },
             { source: "Tiktok", target: "Ifood" },
         ],
     };
@@ -39,7 +41,7 @@ export default function Graphs() {
         "width": 800,
         "d3": {
           "alphaTarget": 0.05,
-          "gravity": -100,
+          "gravity": -250,
           "linkLength": 10,
           "linkStrength": 1,
           "disableLinkForce": false

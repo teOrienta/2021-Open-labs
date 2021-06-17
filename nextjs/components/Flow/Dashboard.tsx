@@ -1,17 +1,25 @@
 import styles from '../../styles/components/Flow/Dashboard.module.css'
-import Discover from './Graph';
+import Graph from './Graph';
+import Chart from './Chart';
 
 export default function Dashboard() {
     return (
         <div className = {styles.container}>
             <h2> Dashboard </h2>
-            <section className = {styles.graphs}>
+            <section className = {styles.viewers}>
                 <div className = {styles.card}>
-                    <Discover/>
+                    <Graph/>
+                </div>
+                <div className = {styles.card}>
+                    <Chart/>
                 </div>
             </section>
             <section className = {styles.bars}>
             </section>
+
+            <footer> 
+                2021 teOrienta. Desafio Open Labs 2021
+            </footer>
         </div>
     )
 }
