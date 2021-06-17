@@ -44,6 +44,6 @@ export default function App() {
     };
       
     return (
-        <Bar data={data} options={options} />
+        <Bar type data={data} options={options} />
     )
 }
