@@ -38,7 +38,6 @@ export default function Graphs() {
         "panAndZoom": false,
         "staticGraph": false,
         "staticGraphWithDragAndDrop": false,
-        "width": 800,
         "d3": {
           "alphaTarget": 0.05,
           "gravity": -250,

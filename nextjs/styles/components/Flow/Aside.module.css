@@ -19,7 +19,7 @@
     color: var(--txt-light);
     transition: all .2s;
 }
-.title {
+.titleContainer {
     display: flex;
 }
 .logoContainer {

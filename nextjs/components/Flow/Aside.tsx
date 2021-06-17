@@ -18,7 +18,7 @@ export default function Aside() {
       </button>
     : <></>}
     <div className = {styles.container} style = {{ transform: showAside }}>
-      <div className = {styles.title}>
+      <div className = {styles.titleContainer}>
         <div className = {styles.logoContainer}>
           <Image src = {Icon} alt = "Program icon" />
         </div>
