@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding: 1em;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: height 1s;
+}
+.logoContainer {
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+.container button {
+    display: flex;
+    margin: 1em 0;
+    padding: 1em 1em;
+    border-radius: 6px;
+    background: #FFF;
+    color: var(--txt-light);
+    transition: all .2s;
+}
+
+.container button:hover,
+.container button.selected {
+    background: var(--btn-normal);
+    color: #FFF;
+}
+.container button svg {
+    margin-right: 1em;
+}

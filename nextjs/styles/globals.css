@@ -18,6 +18,7 @@ a {
 :root {
   --txt-dark: #9ca9b3;
   --txt-normal: #eceded; 
+  --txt-light: #16365f;
 
   --btn-normal: #6163ff;
   --btn-dark: #5658dd;
