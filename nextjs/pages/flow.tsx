@@ -3,7 +3,7 @@ import styles from '../styles/Flow.module.css'
 
 import Header from '../components/Flow/Header'
 import Aside from '../components/Flow/Aside'
-import Graphs from '../components/Flow/Graphs'
+import Dashboard from '../components/Flow/Dashboard'
 
 export default function Flow() {
   return (
@@ -12,8 +12,8 @@ export default function Flow() {
       <Aside/>
       <div className = {styles.main}>
         <Header/>
+        <Dashboard/>
       </div>
-      <Graphs/>
     </div>
   )
 }
