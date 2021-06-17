@@ -125,3 +125,12 @@
     height: 1px;
     border-bottom: 1px solid rgb(225, 225, 225);
 }
+
+@media (max-width: 450px) {
+    .logoContainer {
+        display: none;
+    }
+    .links {
+        margin: auto;
+    }
+}

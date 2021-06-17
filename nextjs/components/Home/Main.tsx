@@ -25,7 +25,7 @@ export default function Main() {
             Saber mais
           </button>
         </div>
-        <div className = {styles.imgContainer} style =  {{ width: "750px" }}>
+        <div className = {styles.imgContainer}>
           <Image src = {Video} alt = "Land image" layout = "fill" objectFit="contain"/>
         </div>
       </section>
