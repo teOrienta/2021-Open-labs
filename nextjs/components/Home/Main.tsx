@@ -79,14 +79,10 @@ export default function Main() {
                 Nossa ferramenta é facilmente adaptada para o setor de finanças de uma organização. Normalmente, partes burocráticas geram bastantes logs que não são utilizados para outros meios, mas que podem ser utilizados para encontrar gargalos na operação de finanças e melhorar, como consequência, a produtividade desse setor.
               </p>
             </div>
-            <div className={styles.demos}>
-              <Image src = {Icon} alt = "demo img" layout = "fill" objectFit="contain"/>
-            </div>
+            
           </li>
           <li>
-            <div className={styles.demos}>
-              <Image src = {Icon} alt = "demo img" layout = "fill" objectFit="contain"/>
-            </div>
+            
             <div style = {{ textAlign: "end" }}>
               <h3>Setor de logística</h3>
               <p className = "larger">
@@ -102,20 +98,20 @@ export default function Main() {
 
         <ul>
           <li>
-            <span> <p>Marton Paulo</p> </span>
-            <div>
-              <h4> CEO </h4>
-              <p> 
-                Melhor designer de Pernambuco, faixa preta em judô. 
-              </p>
-            </div>
-          </li>
-          <li>
             <span> <p>Matheus Almeida</p> </span>
             <div>
               <h4> CTO </h4>
               <p> 
-                Um mestre, manja de tudo
+                Um mestre, manja de tudo.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span> <p>Marton Paulo</p> </span>
+            <div>
+              <h4> CEO </h4>
+              <p> 
+                Melhor designer em linha reta de Pernambuco, faixa preta em judô. 
               </p>
             </div>
           </li>
@@ -124,7 +120,7 @@ export default function Main() {
             <div>
               <h4> CO-Founder </h4>
               <p> 
-                O cara, guitarrista da Vitruvian
+                O cara, guitarrista da Vitruvian.
               </p>
             </div>
           </li>
@@ -133,7 +129,7 @@ export default function Main() {
             <div>
               <h4> CO-Founder </h4>
               <p> 
-                Nas palavras de Vitor: Um cão chupando manga
+                Nas palavras de Vitor: Tem uma habilidade absurda pra codar.
               </p>
             </div>
           </li>
