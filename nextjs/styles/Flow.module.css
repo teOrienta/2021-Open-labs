@@ -1,12 +1,12 @@
 .container {
     background-color: var(--bg-normal);
     min-height: 100vh;
-    padding: 0 0.5rem;
     display: flex;
     align-items: center;
     position: absolute;
     height: 100vh;
     width: 100vw;
+    overflow-y: auto;
 }
 .main {
     display: flex;

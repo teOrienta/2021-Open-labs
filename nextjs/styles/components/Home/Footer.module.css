@@ -4,12 +4,21 @@
     align-items: center;
     justify-content: space-between;
     padding: 2em;
+    text-align: center;
 }
 .container > p {
     margin: 0;
 } 
 .container div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 25em;
+    max-width: 100%;
+}
+@media (max-width:450px) {
+    .container {
+        justify-content: center;
+        flex-direction: column;
+    }
 }

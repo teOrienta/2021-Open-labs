@@ -9,7 +9,7 @@ export default function Footer() {
       <div>
         <a href="#"> Contato </a>
         <a href="#"> Sobre a equipe </a>
-        <a href="#"> FAQ&lsq;uos </a>
+        <a href="#"> FAQ&#39;s </a>
         <a href="#"> Suporte </a>
       </div>
     </div>

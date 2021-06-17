@@ -14,9 +14,6 @@ export default function Dashboard() {
                     <Chart/>
                 </div>
             </section>
-            <section className = {styles.bars}>
-            </section>
-
             <footer> 
                 2021 teOrienta. Desafio Open Labs 2021
             </footer>
