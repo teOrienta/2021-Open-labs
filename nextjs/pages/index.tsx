@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title> teOrienta </title>
+        <title> JuMP CNJ </title>
         <meta name="description" content="teOrienta project" />
         <link rel="icon" href="/icons/teorienta.png" />
       </Head>
