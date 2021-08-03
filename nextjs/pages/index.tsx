@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Home/Header'
 import Main from '../components/Home/Main'
-import Footer from '../components/Home/Footer'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,12 +9,11 @@ export default function Home() {
       <Head>
         <title> JuMP CNJ </title>
         <meta name="description" content="teOrienta project" />
-        <link rel="icon" href="/icons/teorienta.png" />
+        <link rel="icon" href="/icons/favicon.svg" />
       </Head>
 
       <Header/>
       <Main/>
-      <Footer/>
     </div>
   )
 }
